@@ -1,0 +1,170 @@
+.navbar {
+    padding: 0.5rem 1rem;
+   margin-top: 30px;
+   position: fixed;
+
+  }
+  .white {   
+     background-color: white !important;
+    }   
+
+  .nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+
+  .navbar-brand img {
+    height: 25px;
+    padding-top: 10;
+    margin-bottom: 20px;
+
+   
+    
+  }
+
+  .search-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 991px) {
+    .nav-center {
+      position: static;
+      transform: none;
+      margin: auto;
+    }
+  }
+  .color > li > a {
+color: black;
+  }
+.black {
+  text-align: center;
+  margin-bottom: 0;
+
+  
+}
+.black > h1{
+font-weight: bolder;
+font-size: 60px;
+padding-bottom: 10px;
+
+}
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .black> h3{
+    background: linear-gradient(90deg, rgb(202, 10, 10), rgb(255, 170, 13), yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .black > h2{
+    padding-bottom: 20px;
+  }
+.back-img{
+    background: url("https://www.apple.com/v/home/cd/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg");
+    height:400px;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.black > .but1{
+background-color: rgb(39, 39, 245);
+color: white;
+font-size: larger;
+border-radius: 30px;
+font-size: larger;
+padding-right: 10px;
+padding-left: 10px;
+ margin-bottom: 20px;
+}
+.black > .but2{
+  color: blue;
+  background-color: white ;
+  border: 1px solid blue;
+  border-radius: 30px;
+  margin-left: 20px;
+  font-size: larger;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+.watch{
+  background-image: url("https://www.apple.com/v/home/cd/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_large.jpg");
+  height: 600px;
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.apple {
+  text-align: center;
+
+}
+.apple > img{
+  padding-top: 20px;
+}
+.h1{
+  padding-top: 10px;
+ text-align: center;
+}
+.apple > .but1{
+  background-color: rgb(39, 39, 245);
+  color: white;
+  font-size: larger;
+  border-radius: 30px;
+  font-size: larger;
+  padding-right: 10px;
+  padding-left: 10px;
+   margin-bottom: 20px;
+  }
+  .fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .female{
+    background-image: url("https://www.apple.com/v/home/cd/images/heroes/mothers-day-2025/hero_md25__ca4cocy2qlv6_large.png");
+    height: 600px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 10px;
+  }
+.mom{
+  text-align: center;
+ padding-top: 400px;
+}
+.mom > h1{
+  font-weight: bolder;
+font-size: 60px;
+}
+.mom > button{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  border-radius: none;
+  color: white;
+  background-color: rgb(24, 24, 255);
+margin-top: 10px;
+}
+
+.back-img {
+  margin-bottom: 10px !important;
+}
+
+.watch {
+  margin-top: 0 !important;
+}
